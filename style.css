@@ -1,5 +1,28 @@
-body{
+.wrapper{
     display: grid;
-    grid-template-columns: repeat(20, 1fr);
-    grid-template-rows: 1fr, 1fr, 2fr, 4fr;
+    grid-template-columns: 3fr 0.5fr 2fr;
+    grid-template-rows: 1fr 2fr 6fr 6fr 10fr;
+}
+header{
+    grid-column: 1 / span 3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.Sketching{
+    grid-column: 1 / 3;
+    grid-row: 2;
+    object-fit: cover;
+}
+img{
+    max-width: 100%;
+}
+li a{
+    text-decoration: none;
+    color: black;
 }
