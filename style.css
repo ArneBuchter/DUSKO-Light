@@ -25,6 +25,9 @@ ul{
 img{
     max-width: 100%;
 }
+li{
+    margin-right: 10%;
+}
 li a{
     text-decoration: none;
     color: black;
@@ -34,6 +37,11 @@ li a{
 .background{
     background-color: black;
     color: #ffffff;
+    border: none;
+    max-height: 50px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
 }    
     h1{
     grid-column: 2 / 4;
@@ -56,6 +64,7 @@ li a{
     justify-self: center;
     align-self: center;
     font-family: 'Courier New';
+    margin-top: 10%;
 }
 .container{
     grid-column: 1 / 2;
