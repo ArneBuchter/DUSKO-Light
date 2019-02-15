@@ -1,3 +1,8 @@
+
+*{
+    margin: 5px 5px 10px;
+    padding: 0;
+}
 .wrapper{
     display: grid;
     grid-template-columns: 3fr 0.5fr 2fr;
@@ -24,6 +29,7 @@ ul{
 }
 img{
     max-width: 100%;
+    margin: 0;
 }
 li{
     margin-right: 10%;
@@ -38,10 +44,12 @@ li a{
     background-color: black;
     color: #ffffff;
     border: none;
-    max-height: 50px;
+    max-height: 40px;
     text-decoration: none;
     font-family: Verdana;
     font-weight: bold;
+    padding: 0 10px 0 10px;
+    font-size: 14px;
 }    
     h1{
     grid-column: 2 / 4;
@@ -49,6 +57,7 @@ li a{
     color: #ffffff;
     font-family: Verdana;
     font-size: 48px;
+    margin-top: 15px;
 }
 .sidebar{
     background-color: #484848;
@@ -79,6 +88,5 @@ h2{
     grid-column: 1 / 4;
     font-size: 48px;
     font-family: 'Courier New';
-    margin-left: 5%;
 }
 
